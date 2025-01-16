@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net8.0;net8.0-android;net8.0-ios</TargetFrameworks>
-    <OutputType Condition="'$(TargetFramework)' != 'net8.0'">Exe</OutputType>
+    <TargetFrameworks>net9.0;net9.0-android;net9.0-ios</TargetFrameworks>
+    <OutputType Condition="'$(TargetFramework)' != 'net9.0'">Exe</OutputType>
     <RootNamespace>DXMauiApp</RootNamespace>
     <UseMaui>true</UseMaui>
     <SingleProject>true</SingleProject>
@@ -11,7 +11,7 @@
     <ApplicationId>com.companyname.dxmauiapp</ApplicationId>
     <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
     <ApplicationVersion>1</ApplicationVersion>
-    <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">11.0</SupportedOSPlatformVersion>
+    <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">12.2</SupportedOSPlatformVersion>
     <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">21.0</SupportedOSPlatformVersion>
   </PropertyGroup>
   <ItemGroup>
@@ -23,13 +23,11 @@
     <MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
-    <PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
-    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
-    <PackageReference Include="DevExpress.Maui.CollectionView" Version="24.1.*" />
-    <PackageReference Include="DevExpress.Maui.Core" Version="24.1.*" />
-    <PackageReference Include="DevExpress.Maui.Editors" Version="24.1.*" />
-    <PackageReference Include="DevExpress.Maui.Controls" Version="24.1.*" />
-    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
+    <PackageReference Include="Microsoft.Maui.Controls" Version="9.0.10" />
+    <PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="9.0.10" />
+    <PackageReference Include="DevExpress.Maui.CollectionView" Version="24.2.*" />
+    <PackageReference Include="DevExpress.Maui.Core" Version="24.2.*" />
+    <PackageReference Include="DevExpress.Maui.Editors" Version="24.2.*" />
+    <PackageReference Include="DevExpress.Maui.Controls" Version="24.2.*" />
   </ItemGroup>
 </Project>
