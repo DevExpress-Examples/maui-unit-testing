@@ -13,7 +13,7 @@ You can write unit test for applications that reference [DevExpress Mobile UI](h
 
 ## Documentation
 
-- [Add Unit Tests to a .NET MAUI Application](https://docs.devexpress.com/MAUI/404781/unit-testing?v=24.1)
+- [Add Unit Tests to a .NET MAUI Application](https://docs.devexpress.com/MAUI/404781/unit-testing)
 
 ## More Examples
 
@@ -30,3 +30,4 @@ You can write unit test for applications that reference [DevExpress Mobile UI](h
 
 (you will be redirected to DevExpress.com to submit your response)
 <!-- feedback end -->
+
