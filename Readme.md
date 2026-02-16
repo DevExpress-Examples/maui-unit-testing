@@ -24,7 +24,7 @@ You can write unit test for applications that reference [DevExpress Mobile UI](h
 * [Charts](https://github.com/DevExpress-Examples/maui-charts)
 * [Tab View](https://github.com/DevExpress-Examples/maui-tab-view-get-started)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=maui-unit-testing&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=maui-unit-testing&~~~was_helpful=no)
 
